@@ -1,8 +1,7 @@
-package java.BasicPrograms;
-
+package Topic;//  While LOOP in JAVA
 import java.util.Scanner;
-public class palindromeNumber {
-    public static void main(String[] args){
+public class whileLoop {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter number to check Palindrome");
         int n = s.nextInt();

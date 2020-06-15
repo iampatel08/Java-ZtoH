@@ -1,4 +1,4 @@
-package java.Topic;
+package Topic;
 
 //  Type Casting in JAVA
 //  Widening Casting (smaller to larger type)

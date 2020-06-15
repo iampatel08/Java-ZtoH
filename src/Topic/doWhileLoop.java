@@ -1,4 +1,4 @@
-package java.Topic;//  Do - While LOOP in JAVA
+package Topic;//  Do - While LOOP in JAVA
 import java.util.Scanner;
 public class doWhileLoop {
     public static void main(String[] args) {

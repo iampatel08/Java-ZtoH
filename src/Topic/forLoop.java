@@ -1,4 +1,4 @@
-package java.Topic;//  FOR LOOP in JAVA
+package Topic;//  FOR LOOP in JAVA
 import java.util.Scanner;
 public class forLoop {
     public static void main(String[] args){

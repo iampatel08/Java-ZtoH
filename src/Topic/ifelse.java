@@ -1,4 +1,4 @@
-package java.Topic;//  If - ELSE in JAVA
+package Topic;//  If - ELSE in JAVA
 import java.util.Scanner;
 public class ifelse {
     public static void main(String[] args){

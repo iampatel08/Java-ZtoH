@@ -1,4 +1,4 @@
-package java.BasicPrograms;
+package BasicPrograms;
 
 import java.util.Scanner;
 public class armstrongNumber {

@@ -1,4 +1,4 @@
-package java.Topic;//  Switch Case in JAVA
+package Topic;//  Switch Case in JAVA
 import java.util.Scanner;
 public class switchCase {
     public static void main(String[] args){

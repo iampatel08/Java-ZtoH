@@ -1,4 +1,4 @@
-package java.Topic;
+package Topic;
 
 //  Types of VARIABLES in JAVA
 public class variables {

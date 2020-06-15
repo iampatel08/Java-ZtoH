@@ -1,4 +1,4 @@
-package java.Topic;//  Types of Operators in JAVA
+package Topic;//  Types of Operators in JAVA
 import java.util.Scanner;   // Class for Scanner
 public class operators {
 
@@ -72,7 +72,7 @@ public class operators {
         // c = d;
 
         // instead of below statements, shorthand
-        // assignment java.Topic.operators can be used to
+        // assignment Topic.operators can be used to
         // provide same functionality.
         a = a + 1;
         b = b - 1;
@@ -89,7 +89,7 @@ public class operators {
         b -= 1;
         e *= 2;
         f /= 2;
-        System.out.println("a, b, e, f (" + "using shorthand java.Topic.operators)= " + a + ", " + b + ", " + e + ", " + f);
+        System.out.println("a, b, e, f (" + "using shorthand Topic.operators)= " + a + ", " + b + ", " + e + ", " + f);
     }
 
 
@@ -105,7 +105,7 @@ public class operators {
         int br[] = { 1, 2, 3 };
         boolean condition = true;
 
-        // various conditional java.Topic.operators
+        // various conditional Topic.operators
         System.out.println("a == b :" + (a == b));
         System.out.println("a < b :" + (a < b));
         System.out.println("a <= b :" + (a <= b));
@@ -114,7 +114,7 @@ public class operators {
         System.out.println("a != b :" + (a != b));
 
         // Arrays cannot be compared with
-        // relational java.Topic.operators because objects
+        // relational Topic.operators because objects
         // store references not the value
         System.out.println("x == y : " + (ar == br));
 

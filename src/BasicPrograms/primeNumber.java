@@ -1,4 +1,4 @@
-package java.BasicPrograms;
+package BasicPrograms;
 import java.util.Scanner;
 public class primeNumber {
     public static void main(String[] args){
