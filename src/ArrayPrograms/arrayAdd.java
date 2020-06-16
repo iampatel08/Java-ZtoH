@@ -1,6 +1,6 @@
 package ArrayPrograms;
 import java.util.Scanner;
-public class addArray {
+public class arrayAdd {
     public static void main(String[] args) {
         Scanner s =new Scanner(System.in);
         System.out.print("Enter number of rows : ");
