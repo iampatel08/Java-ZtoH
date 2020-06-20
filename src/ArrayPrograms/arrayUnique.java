@@ -1,5 +1,8 @@
 package ArrayPrograms;
 
+// HAVE TO DO HELL LOT OF WORK
+
+
 import java.util.Scanner;
 public class arrayUnique {
     public static void main(String[] args){
