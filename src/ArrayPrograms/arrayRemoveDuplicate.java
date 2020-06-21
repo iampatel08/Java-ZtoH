@@ -1,6 +1,7 @@
 package ArrayPrograms;
 
 import java.util.Scanner;
+import java.util.Vector;
 
 public class arrayRemoveDuplicate {
     public static void main(String[] args) {
@@ -26,24 +27,15 @@ public class arrayRemoveDuplicate {
                 }
             }
         }
-        System.out.println();
-        System.out.println("Sorted array in Ascending Order is : ");
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        int j=0;
-        int unique[] = new int[n];
-        for (int i = 0;i<n-2;i++){
+        Vector<Integer> unique = new Vector<Integer>();
+        for (int i = 0;i<=n-2;i++){
             if (arr[i]!=arr[i+1]){
-                unique[j] = arr[i];
-                j++;
+                unique.add(arr[i]);
             }
         }
-        unique[j+1] = arr[n-1];
+        unique.add(arr[n-1]);
         System.out.println();
-        System.out.println("Array w/o Duplicate Value is : ");
-        for (int i = 0; i < unique.length; i++) {
-                System.out.print(unique[i] + " ");
-        }
+        System.out.println("Unique Elements of the array are : ");
+        System.out.print(unique);
     }
 }
