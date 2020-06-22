@@ -7,7 +7,7 @@ public class matrixInitialize {
         int arr2[][] = new int[3][3];
         int i, j;
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter the Elements of first array :\n");
+        System.out.print("Enter the Elements of first Matrix :\n");
         for (i = 0; i < 3; i++) {
             for (j = 0; j < 3; j++) {
                 arr1[i][j] = s.nextInt();
@@ -15,7 +15,7 @@ public class matrixInitialize {
             }
             System.out.println();
         }
-        System.out.print("Enter the Elements of Second array :\n");
+        System.out.print("Enter the Elements of Second Matrix :\n");
         for (i = 0; i < 3; i++) {
             for (j = 0; j < 3; j++) {
                 arr2[i][j] = s.nextInt();
@@ -23,7 +23,7 @@ public class matrixInitialize {
             }
             System.out.println();
         }
-        System.out.print("First array :\n");
+        System.out.print("First Matrix :\n");
         for (i = 0; i < 3; i++) {
             for (j = 0; j < 3; j++) {
                 System.out.print(arr1[i][j]+" ");
@@ -31,7 +31,7 @@ public class matrixInitialize {
             }
             System.out.println();
         }
-        System.out.print("Second array :\n");
+        System.out.print("Second Matrix :\n");
         for (i = 0; i < 3; i++) {
             for (j = 0; j < 3; j++) {
                 System.out.print(arr2[i][j]+" ");
