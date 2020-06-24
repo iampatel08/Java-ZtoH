@@ -1,5 +1,4 @@
 package Topic;
-
 class Account{
     int acc_no;
     String name;
